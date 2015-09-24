@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 198ffd4e27fc3214abc9bf6952adb29a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Body01
+    100002: Body02
+    100004: Body03
+    100006: Golem
+    100008: Golem_mesh
+    100010: Leg_B-L1
+    100012: Leg_B-L2
+    100014: Leg_B-R1
+    100016: Leg_B-R2
+    100018: Leg_F-L1
+    100020: Leg_F-L2
+    100022: Leg_F-R1
+    100024: Leg_F-R2
+    100026: Pelvis
+    100028: //RootNode
+    400000: Body01
+    400002: Body02
+    400004: Body03
+    400006: Golem
+    400008: Golem_mesh
+    400010: Leg_B-L1
+    400012: Leg_B-L2
+    400014: Leg_B-R1
+    400016: Leg_B-R2
+    400018: Leg_F-L1
+    400020: Leg_F-L2
+    400022: Leg_F-R1
+    400024: Leg_F-R2
+    400026: Pelvis
+    400028: //RootNode
+    2300000: Golem_mesh
+    3300000: Golem_mesh
+    4300000: Golem_mesh
+    7400000: Action
+    7400002: Idle
+    7400004: Attack1
+    7400006: Attack2
+    7400008: Walk
+    7400010: Run
+    7400012: Take Damage1
+    7400014: Jump
+    7400016: Take Damage2
+    7400018: Attack Stun
+    7400020: Turn Right
+    7400022: Turn Left
+    7400024: Death
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Golem_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Action
+      takeName: Base Stack
+      firstFrame: 310
+      lastFrame: 385
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Base Stack
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Base Stack
+      firstFrame: 40
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack2
+      takeName: Base Stack
+      firstFrame: 55
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Base Stack
+      firstFrame: 110
+      lastFrame: 140
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Base Stack
+      firstFrame: 155
+      lastFrame: 170
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Base Stack
+      firstFrame: 90
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take Damage1
+      takeName: Base Stack
+      firstFrame: 80
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take Damage2
+      takeName: Base Stack
+      firstFrame: 263
+      lastFrame: 305
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack Stun
+      takeName: Base Stack
+      firstFrame: 220
+      lastFrame: 232
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Turn Right
+      takeName: Base Stack
+      firstFrame: 232
+      lastFrame: 247
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Turn Left
+      takeName: Base Stack
+      firstFrame: 247
+      lastFrame: 262
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Base Stack
+      firstFrame: 175
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Golem
+        weight: 1
+      - path: Golem/Pelvis
+        weight: 1
+      - path: Golem/Pelvis/Body01
+        weight: 1
+      - path: Golem/Pelvis/Body01/Body02
+        weight: 1
+      - path: Golem/Pelvis/Body03
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-L1/Leg_B-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_B-R1/Leg_B-R2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-L1/Leg_F-L2
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1
+        weight: 1
+      - path: Golem/Pelvis/Leg_F-R1/Leg_F-R2
+        weight: 1
+      - path: Golem_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: e58e375f5ed38074480b5df1226c7bc3
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bone082(mirrored)
+    100002: Bone081(mirrored)
+    100004: Bone080(mirrored)
+    100006: Bone079(mirrored)
+    100008: Bone013(mirrored)
+    100010: Bone010(mirrored)
+    100012: Bone044(mirrored)
+    100014: Bone047(mirrored)
+    100016: Bone053(mirrored)
+    100018: Bone050(mirrored)
+    100020: Bone013(mirrored)(mirrored)
+    100022: Bone036(mirrored)
+    100024: Bone032(mirrored)
+    100026: Bone028(mirrored)
+    100028: Bone040(mirrored)
+    100030: Bone041(mirrored)
+    100032: Bone020(mirrored)
+    100034: Bone018(mirrored)
+    100036: Bone077
+    100038: Bone076
+    100040: Bone078
+    100042: Bone075
+    100044: Bone074
+    100046: Bone073
+    100048: Bone053
+    100050: Left Toe 08
+    100052: Left Toe 07
+    100054: Bone050
+    100056: Left Toe 06
+    100058: Left Toe 05
+    100060: Bone047
+    100062: Left Toe 04
+    100064: Left Toe 03
+    100066: Bone044
+    100068: Left Toe 02
+    100070: Left Toe 01
+    100072: Left Toe
+    100074: Left Foot
+    100076: Left Lower Leg
+    100078: Left Upper Leg
+    100080: //RootNode
+    100082: Bone072
+    100084: Bone071
+    100086: Bone070
+    100088: Bone069
+    100090: Bone068
+    100092: Right Pink 02
+    100094: Right Pink 01
+    100096: Right Ring 03
+    100098: Right Ring 02
+    100100: Right Ring 01
+    100102: Right Middle 03
+    100104: Right Middle 02
+    100106: Right Middle 01
+    100108: Right Index 03
+    100110: Right Index 02
+    100112: Right Index 01
+    100114: Right Thumb 03
+    100116: Right Thumb 02
+    100118: Right Thumb 01
+    100120: Right Hand
+    100122: Right Lower Arm
+    100124: Right Upper Arm
+    100126: Right Clavicle
+    100128: Bone061
+    100130: Bone060
+    100132: Bone059
+    100134: Bone058
+    100136: Bone057
+    100138: Bone056
+    100140: Bone055
+    100142: Jaw
+    100144: Bone007
+    100146: Head
+    100148: Neck
+    100150: Bone004
+    100152: Spine 02
+    100154: Spine 01
+    100156: Hips 1
+    100158: Hips
+    100160: Troll
+    100162: Left Ring 02
+    100164: Left Ring 01
+    100166: Bone028
+    100168: Left Middle 03
+    100170: Left Middle 02
+    100172: Left Middle 01
+    100174: Bone040
+    100176: Left Index 03
+    100178: Left Index 02
+    100180: Left Index 01
+    100182: Bone041
+    100184: Left Thumb 03
+    100186: Left Thumb 02
+    100188: Left Thumb 01
+    100190: Bone020
+    100192: Left Hand
+    100194: Bone018
+    100196: Left Lower Arm
+    100198: Left Upper Arm
+    100200: Left Clavicle
+    100202: Bone067
+    100204: Bone066
+    100206: Bone063
+    100208: Bone062
+    100210: Bone065
+    100212: Bone064
+    100214: Right Pink 03
+    100216: Bone082
+    100218: Bone081
+    100220: Bone080
+    100222: Bone079
+    100224: Right Toe 02
+    100226: Right Toe 01
+    100228: Right Toe 04
+    100230: Right Toe 03
+    100232: Right Toe 08
+    100234: Right Toe 07
+    100236: Right Toe 06
+    100238: Right Toe 05
+    100240: Right Toe
+    100242: Right Foot
+    100244: Bone010
+    100246: Right Lower Leg
+    100248: Right Upper Leg
+    100250: Bone036
+    100252: Left Pink 03
+    100254: Left Pink 02
+    100256: Left Pink 01
+    100258: Bone032
+    100260: Left Ring 03
+    400000: Bone082(mirrored)
+    400002: Bone081(mirrored)
+    400004: Bone080(mirrored)
+    400006: Bone079(mirrored)
+    400008: Bone013(mirrored)
+    400010: Bone010(mirrored)
+    400012: Bone044(mirrored)
+    400014: Bone047(mirrored)
+    400016: Bone053(mirrored)
+    400018: Bone050(mirrored)
+    400020: Bone013(mirrored)(mirrored)
+    400022: Bone036(mirrored)
+    400024: Bone032(mirrored)
+    400026: Bone028(mirrored)
+    400028: Bone040(mirrored)
+    400030: Bone041(mirrored)
+    400032: Bone020(mirrored)
+    400034: Bone018(mirrored)
+    400036: Bone077
+    400038: Bone076
+    400040: Bone078
+    400042: Bone075
+    400044: Bone074
+    400046: Bone073
+    400048: Bone053
+    400050: Left Toe 08
+    400052: Left Toe 07
+    400054: Bone050
+    400056: Left Toe 06
+    400058: Left Toe 05
+    400060: Bone047
+    400062: Left Toe 04
+    400064: Left Toe 03
+    400066: Bone044
+    400068: Left Toe 02
+    400070: Left Toe 01
+    400072: Left Toe
+    400074: Left Foot
+    400076: Left Lower Leg
+    400078: Left Upper Leg
+    400080: //RootNode
+    400082: Bone072
+    400084: Bone071
+    400086: Bone070
+    400088: Bone069
+    400090: Bone068
+    400092: Right Pink 02
+    400094: Right Pink 01
+    400096: Right Ring 03
+    400098: Right Ring 02
+    400100: Right Ring 01
+    400102: Right Middle 03
+    400104: Right Middle 02
+    400106: Right Middle 01
+    400108: Right Index 03
+    400110: Right Index 02
+    400112: Right Index 01
+    400114: Right Thumb 03
+    400116: Right Thumb 02
+    400118: Right Thumb 01
+    400120: Right Hand
+    400122: Right Lower Arm
+    400124: Right Upper Arm
+    400126: Right Clavicle
+    400128: Bone061
+    400130: Bone060
+    400132: Bone059
+    400134: Bone058
+    400136: Bone057
+    400138: Bone056
+    400140: Bone055
+    400142: Jaw
+    400144: Bone007
+    400146: Head
+    400148: Neck
+    400150: Bone004
+    400152: Spine 02
+    400154: Spine 01
+    400156: Hips 1
+    400158: Hips
+    400160: Troll
+    400162: Left Ring 02
+    400164: Left Ring 01
+    400166: Bone028
+    400168: Left Middle 03
+    400170: Left Middle 02
+    400172: Left Middle 01
+    400174: Bone040
+    400176: Left Index 03
+    400178: Left Index 02
+    400180: Left Index 01
+    400182: Bone041
+    400184: Left Thumb 03
+    400186: Left Thumb 02
+    400188: Left Thumb 01
+    400190: Bone020
+    400192: Left Hand
+    400194: Bone018
+    400196: Left Lower Arm
+    400198: Left Upper Arm
+    400200: Left Clavicle
+    400202: Bone067
+    400204: Bone066
+    400206: Bone063
+    400208: Bone062
+    400210: Bone065
+    400212: Bone064
+    400214: Right Pink 03
+    400216: Bone082
+    400218: Bone081
+    400220: Bone080
+    400222: Bone079
+    400224: Right Toe 02
+    400226: Right Toe 01
+    400228: Right Toe 04
+    400230: Right Toe 03
+    400232: Right Toe 08
+    400234: Right Toe 07
+    400236: Right Toe 06
+    400238: Right Toe 05
+    400240: Right Toe
+    400242: Right Foot
+    400244: Bone010
+    400246: Right Lower Leg
+    400248: Right Upper Leg
+    400250: Bone036
+    400252: Left Pink 03
+    400254: Left Pink 02
+    400256: Left Pink 01
+    400258: Bone032
+    400260: Left Ring 03
+    4300000: Troll
+    7400002: Idle_01
+    7400004: Idle_02
+    7400006: Walk
+    7400008: Run
+    7400010: Jump
+    7400012: Attack_01
+    7400014: Attack_02
+    7400016: Hit
+    7400018: Die
+    11100000: //RootNode
+    13700000: Troll
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_01
+      takeName: 
+      firstFrame: 20
+      lastFrame: 140
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_02
+      takeName: 
+      firstFrame: 160
+      lastFrame: 310
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: 
+      firstFrame: 330
+      lastFrame: 390
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: 
+      firstFrame: 410
+      lastFrame: 446
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: 
+      firstFrame: 460
+      lastFrame: 500
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_01
+      takeName: 
+      firstFrame: 520
+      lastFrame: 565
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_02
+      takeName: 
+      firstFrame: 580
+      lastFrame: 660
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: 
+      firstFrame: 680
+      lastFrame: 710
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: 
+      firstFrame: 730
+      lastFrame: 790
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .150000006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

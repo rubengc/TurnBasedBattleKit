@@ -1,0 +1,1 @@
+Shot control of this folder, please refer to the "shot_tips" in the "Tips" folder
